@@ -1,3 +1,4 @@
+library(ggplot2)
 setwd('c:/nba/')
 csvfiles<-"c:/nba/hotcolddata.csv"
 MyData <- read.csv(file=csvfiles, header=TRUE, sep=",")
